@@ -15,3 +15,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bigger-blue-text {
+  color: aqua;
+  font-size: 20px;
+}
+
+#tebe-text {
+  color: red;
+}
