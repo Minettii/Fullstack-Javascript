@@ -1,0 +1,17 @@
+li {
+  color: green;
+}
+
+h1 {
+  font-size: 50px;
+  color: purple;
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px;
+}
+
+body {
+  background-image: url("https://pbs.twimg.com/profile_images/1587030512102965250/WEjKauSp_400x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
