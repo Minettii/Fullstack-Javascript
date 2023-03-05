@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro da liga dos astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form action="">
+      <label for="name">Nome: </label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" /> -
+      <label for="psw">Password: </label>
+      <input type="password" name="psw" id="psw" /><br /><br />
+      <label for="bday">Data de nascimento: </label>
+      <input type="password" name="bday" id="bday" /> -
+      <label for="foto">Foto: </label>
+      <input type="file" name="foto" id="foto" /><br /><br />
+      <label for="nacionalidade">Nacionalidade: </label>
+      <select name="nacionalidade" id="nacionalidade">
+        <option value="br">Brasileiro</option>
+        <option value="ru" selected>Russo</option>
+        <option value="jp">Japonês</option>
+      </select>
+      - Gênero: F <input type="radio" name="genero" value="female" /> M
+      <input type="radio" name="genero" value="male" /> <br /><br />
+      Suas principais qualidades: <br />
+      Inteligência <input type="checkbox" name="skill1" value="int" checked /> |
+      Reliliência <input type="checkbox" name="skill2" value="res" checked /> |
+      Preparo físico <input type="checkbox" name="skill3" value="fis" /> |
+      Educação <input type="checkbox" name="skill4" value="edu" /> |
+      <br /><br />
+      <textarea
+        name="motivo"
+        id="motivo"
+        cols="30"
+        rows="10"
+        placeholder="Por que você gostaria de ser um astronauta?"
+      ></textarea
+      ><br /><br />
+      <input type="submit" value="Criar" />
+    </form>
+  </body>
+</html>
